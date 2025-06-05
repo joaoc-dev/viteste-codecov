@@ -13,4 +13,9 @@ const fibonacci = (n) => {
   return fibonacci(n - 1) + fibonacci(n - 2);
 };
 
-module.exports = { add, subtract, multiply, divide, fibonacci };
+const factorial = (n) => {
+  if (n <= 1) return 1;
+  return n * factorial(n - 1);
+};
+
+module.exports = { add, subtract, multiply, divide, fibonacci, factorial };
