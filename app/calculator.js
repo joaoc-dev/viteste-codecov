@@ -30,6 +30,10 @@ const isEven = (n) => {
   return n % 2 === 0;
 };
 
+const isOdd = (n) => {
+  return n % 2 !== 0;
+};
+
 module.exports = {
   add,
   subtract,
