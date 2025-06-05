@@ -34,6 +34,10 @@ const isOdd = (n) => {
   return n % 2 !== 0;
 };
 
+const isPalindrome = (str) => {
+  return str === str.split('').reverse().join('');
+};
+
 module.exports = {
   add,
   subtract,
